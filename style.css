@@ -29,7 +29,7 @@ h2{
 .input-item{
     padding: 10px;
     font-size: 18px;
-    width: 500px;
+    width: 800px;
     border: 1px solid rgb(170, 170, 170);
 }
 
@@ -64,7 +64,7 @@ h2{
 .item-info{
     font-family: sans-serif;
     font-size: 18px;
-    width: 500px;
+    width: 700px;
 }
 
 .button-x{
@@ -78,4 +78,28 @@ h2{
     border-radius: 50%;
     cursor: pointer;
     font-weight: bold;
+}
+
+.display-look{
+    padding-bottom: 10px;
+}
+
+@media (max-width: 848px) {
+    .input-item{
+        width: 500px;
+    }
+
+    .item-info{
+        width: 450px;
+    }
+}
+
+@media (max-width: 548px) {
+    .input-item{
+        width: 300px;
+    }
+
+    .item-info{
+        width: 250px;
+    }
 }
